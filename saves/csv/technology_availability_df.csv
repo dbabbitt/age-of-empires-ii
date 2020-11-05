@@ -1,0 +1,139 @@
+﻿Technology Name,Age,Researched_in_Archery_Range,Researched_in_Barracks,Researched_in_Blacksmith,Researched_in_Castle,Researched_in_Dock,Researched_in_Lumber_Camp,Researched_in_Market,Researched_in_Mill,Researched_in_Mining_Camp,Researched_in_Monastery,Researched_in_Siege_Workshop,Researched_in_Stable,Researched_in_Town_Center,Researched_in_University,Cost,Wood,Stone,Gold,Food,Effect,Technology_Type,Previous,Intro,Time,Required,Next,Aztecs,Berbers,Britons,Burmese,Byzantines,Celts,Chinese,Ethiopians,Franks,Goths,Huns,Incas,Indians,Italians,Japanese,Khmer,Koreans,Magyars,Malay,Malians,Mayans,Mongols,Persians,Portuguese,Saracens,Slavs,Spanish,Teutons,Turks,Vietnamese,Vikings
+Architecture,Imperial,0,0,0,0,0,0,0,0,0,0,0,0,0,1,300F 200W,200,0,0,300,Buildings +10% HP and +1/+1 armor,Building,,The Age of Kings,70,Masonry,,0,0,1,1,0,0,1,1,1,1,0,0,0,1,0,1,1,0,0,1,1,0,1,1,0,0,1,0,1,0,1
+Hoardings,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,400F 400W,400,0,0,400,Castle HP +21%,Building,,The Age of Kings,75,,,0,1,1,0,1,1,0,0,1,0,0,1,1,1,0,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1
+Masonry,Castle,0,0,0,0,0,0,0,0,0,0,0,0,0,1,150F 175W,175,0,0,150,Buildings +10% HP and +1/+1 armor,Building,,The Age of Kings,50,,Architecture,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1
+Town Patrol,Castle,0,0,0,0,0,0,0,0,0,0,0,0,1,0,300F 100G,0,0,100,300,Building LOS +4,Building,,The Age of Kings,40,Town Watch,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Town Watch,Feudal,0,0,0,0,0,0,0,0,0,0,0,0,1,0,75F,0,0,0,75,Building LOS +4,Building,,The Age of Kings,25,,Town Patrol,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Treadmill Crane,Castle,0,0,0,0,0,0,0,0,0,0,0,0,0,1,300F 200W,200,0,0,300,Villagers build 20% faster,Building,,The Age of Kings,50,,,1,1,0,1,0,1,0,0,1,0,0,1,0,1,1,1,1,1,0,1,1,0,0,1,1,1,0,1,1,1,1
+Bloodlines,Feudal,0,0,0,0,0,0,0,0,0,0,0,1,0,0,150F 100G,0,0,100,150,Mounted units +20 HP,Cavalry,,The Conquerors,50,,,0,1,0,1,0,0,1,0,0,1,1,0,1,1,1,1,0,1,0,1,0,1,1,1,1,1,1,1,1,1,0
+Chain Barding Armor,Castle,0,0,1,0,0,0,0,0,0,0,0,0,0,0,250F 150G,0,0,150,250,Cavalry armor +1/+1,Cavalry,,The Age of Kings,60,Scale Barding Armor,Plate Barding Armor,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+Husbandry,Castle,0,0,0,0,0,0,0,0,0,0,0,1,0,0,250F,0,0,0,150,Cavalry speed +10%,Cavalry,,The Age of Kings,40,,,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,0,0
+Plate Barding Armor,Imperial,0,0,1,0,0,0,0,0,0,0,0,0,0,0,350F 200G,0,0,200,350,Cavalry armor +1/+2,Cavalry,,The Age of Kings,75,Chain Barding Armor,,0,1,1,1,1,0,1,0,1,0,1,0,1,1,0,1,0,1,0,1,0,0,1,1,1,1,1,1,1,1,0
+Banking,Imperial,0,0,0,0,0,0,1,0,0,0,0,0,0,0,300F 200G,0,0,200,300,Tribute fee 0%,Economy,,The Age of Kings,70 seconds,Coinage,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bow Saw,Castle,0,0,0,0,0,1,0,0,0,0,0,0,0,0,150F 100W,100,0,0,150,Villagers chop wood 20% faster,Economy,,The Age of Kings,50,Double-Bit Axe,Two-Man Saw,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Caravan,Castle,0,0,0,0,0,0,1,0,0,0,0,0,0,0,200F 200G,0,0,200,200,Trade Carts and Trade Cogs move 50% faster,Economy,,The Conquerors,40 seconds,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Cartography,Feudal,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Free,0,0,0,0,See allies' LOS,Economy,,The Age of Kings,0,,Caravan,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Coinage,Castle,0,0,0,0,0,0,1,0,0,0,0,0,0,0,200F 100G,0,0,100,200,Tribute fee 20%,Economy,,The Age of Kings,70 seconds,,Banking,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Crop Rotation,Imperial,0,0,0,0,0,0,0,1,0,0,0,0,0,0,250F 250W,250,0,0,250,Farms +175 food,Economy,,The Age of Kings,70,Heavy Plow,,1,1,0,1,1,0,0,0,1,1,0,1,0,1,0,1,0,1,1,1,1,0,1,1,0,1,0,1,0,1,1
+Double-Bit Axe,Feudal,0,0,0,0,0,1,0,0,0,0,0,0,0,0,100F 50W,50,0,0,100,Villagers chop wood 20% faster,Economy,,The Age of Kings,25,,Bow Saw,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gillnets,Castle,0,0,0,0,1,0,0,0,0,0,0,0,0,0,150F 200G,200,0,0,150,Fishing Ships work 25% faster,Economy,,The Forgotten,45 seconds,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gold Mining,Feudal,0,0,0,0,0,0,0,0,1,0,0,0,0,0,100F 75W,75,0,0,100,Villagers mine gold 15% faster,Economy,,The Age of Kings,30,,Gold Shaft Mining,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gold Shaft Mining,Castle,0,0,0,0,0,0,0,0,1,0,0,0,0,0,200F 150W,150,0,0,200,Villagers mine gold 15% faster,Economy,,The Age of Kings,75,Gold Mining,,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,0,0,1,0,1
+Hand Cart,Castle,0,0,0,0,0,0,0,0,0,0,0,0,1,0,300F 200W,200,0,0,300,"Villager speed +10%, carrying capacity +50%",Economy,,The Age of Kings,55,Wheelbarrow,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Heavy Plow,Castle,0,0,0,0,0,0,0,1,0,0,0,0,0,0,125F 125W,125,0,0,125,"Farms +125 food, Villagers +1 food carry capacity",Economy,,The Age of Kings,40,Horse Collar,Crop Rotation,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Horse Collar,Feudal,0,0,0,0,0,0,0,1,0,0,0,0,0,0,75F 75W,75,0,0,75,Farms +75 food,Economy,,The Age of Kings,20,,Heavy Plow,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Two-Man Saw,Imperial,0,0,0,0,0,1,0,0,0,0,0,0,0,0,300F 200W,200,0,0,300,Villagers chop wood 10% faster,Economy,,The Age of Kings,100,Bow Saw,,0,0,1,1,1,0,1,1,0,1,1,0,1,1,1,0,1,1,0,0,1,0,1,1,1,1,1,1,1,1,1
+Wheelbarrow,Feudal,0,0,0,0,0,0,0,0,0,0,0,0,1,0,175F 50W,50,0,0,175,"Villager speed +10%, carrying capacity +25%",Economy,,The Age of Kings,75,,Hand Cart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Anarchy,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,250,450,Huskarls can be trained at Barracks,Infantry,,The Conquerors,40,,,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Arson,Castle,0,1,0,0,0,0,0,0,0,0,0,0,0,0,150F 50G,0,0,50,150,Infantry +2 attack vs buildings,Infantry,,The African Kingdoms,25,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Blast Furnace,Imperial,0,0,1,0,0,0,0,0,0,0,0,0,0,0,275F 225G,0,0,225,275,Infantry/cavalry attack +2,Infantry,,The Age of Kings,100,Iron Casting,,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,0,1
+Chain Mail Armor,Castle,0,0,1,0,0,0,0,0,0,0,0,0,0,0,200F 100G,0,0,100,200,Infantry armor +1/+1,Infantry,,The Age of Kings,55,Scale Mail Armor,Plate Mail Armor,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Forging,Feudal,0,0,1,0,0,0,0,0,0,0,0,0,0,0,150F,0,0,0,150,Infantry/cavalry attack +1,Infantry,,The Age of Kings,50,,Iron Casting,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Iron Casting,Castle,0,0,1,0,0,0,0,0,0,0,0,0,0,0,220F 120G,0,0,120,220,Infantry/cavalry attack +1,Infantry,,The Age of Kings,75,Forging,Blast Furnace,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Plate Mail Armor,Imperial,0,0,1,0,0,0,0,0,0,0,0,0,0,0,300F 150G,0,0,150,300,Infantry armor +1/+2,Infantry,,The Age of Kings,70,Chain Mail Armor,,1,1,1,1,1,1,1,1,1,0,0,1,0,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+Scale Mail Armor,Feudal,0,0,1,0,0,0,0,0,0,0,0,0,0,0,100F,0,0,0,100,Infantry armor +1/+1,Infantry,,The Age of Kings,40,,Chain Mail Armor,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Squires,Castle,0,1,0,0,0,0,0,0,0,0,0,0,0,0,100F,0,0,0,100,Infantry speed +10%,Infantry,,The Age of Kings,40,,,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1
+Tracking,Feudal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,50F,0,0,0,50,Infantry +2 LOS,Infantry,,The Age of Kings,35,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Castle Age,Feudal,0,0,0,0,0,0,0,0,0,0,0,0,1,0,800F 200G,0,0,200,800,Advance to Castle Age,Miscellaneous,Feudal Age,The Age of Kings,160,Two of the following:  Archery Range  Stable  Market  Blacksmith,Imperial Age,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Conscription,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,150F 150G,0,0,150,150,"Unit creation speed at the Barracks, Archery Range, Stable, and Castle +33%",Miscellaneous,,The Age of Kings,60,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Feudal Age,Dark,0,0,0,0,0,0,0,0,0,0,0,0,1,0,500F,0,0,0,500,Advance to Feudal Age,Miscellaneous,Dark Age,The Age of Kings,130,Two of the following:  Barracks  Mill  Lumber Camp  Mining Camp  Dock,Castle Age,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Imperial Age,Castle,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1000F 800G,0,0,800,1000,Advance to Imperial Age,Miscellaneous,Castle Age,The Age of Kings,190,Two of the following:  Monastery  University  Siege Workshop or a  Castle,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Loom,Dark,0,0,0,0,0,0,0,0,0,0,0,0,1,0,50G,0,0,50,0,"Villager HP +15, armor +1/+2",Miscellaneous,,The Age of Kings,25,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Sappers,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,400F 200G,0,0,200,400,Villagers +15 attack vs buildings,Miscellaneous,,The Age of Kings,10,,,1,0,1,0,0,1,1,1,0,1,1,1,0,0,0,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1
+Spies,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,"200G per enemy Villager max. 30,000G",0,0,30000,0,See enemy LOS,Miscellaneous,,The Age of Kings,1,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Treason,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,400G,0,0,400,0,See enemy Kings for a short time (Regicide only),Miscellaneous,,The Age of Kings,0,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Andean Sling,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,300,200,Skirmishers and Slingers minimum range removed,Missle_or_Siege,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Arrowslits,Imperial,0,0,0,0,0,0,0,0,0,0,0,0,0,1,250F 250W,250,0,0,250,Watch Towers/Guard Towers/Keeps +1/+2/+3 attack,Missle_or_Siege,,The African Kingdoms,25,,,1,1,1,0,1,1,1,0,1,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,1,0,1,1,1,1,1
+Ballistics,Castle,0,0,0,0,0,0,0,0,0,0,0,0,0,1,300W 175G,300,0,175,0,"Archers, Cavalry Archers, Galleys, Castles, and Towers fire more accurately at moving targets",Missle_or_Siege,,The Age of Kings,60,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Bracer,Imperial,0,0,1,0,0,0,0,0,0,0,0,0,0,0,300F 200G,0,0,200,300,"Archers, Cavalry Archers, Galleys, Castles, and Towers +1 range and attack",Missle_or_Siege,,The Age of Kings,40,Bodkin Arrow,,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0,1,0,1,1,1
+Chemistry,Imperial,0,0,0,0,0,0,0,0,0,0,0,0,0,1,300F 200G,0,0,200,300,Missile units (including siege) +1 attack Prerequisite for non-unique gunpowder units,Missle_or_Siege,,The Age of Kings,100 seconds,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Fletching,Feudal,0,0,1,0,0,0,0,0,0,0,0,0,0,0,100F 50G,0,0,50,100,"Archers, Cavalry Archers, Galleys, Castles, and Towers +1 range and attack",Missle_or_Siege,,The Age of Kings,30,,Bodkin Arrow,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Heated Shot,Castle,0,0,0,0,0,0,0,0,0,0,0,0,0,1,350F 100G,0,0,100,350,Towers +125% and Castles +25% attack against ships,Missle_or_Siege,,The Age of Kings,30 seconds,,,1,1,1,1,0,1,1,1,0,1,0,1,1,1,0,1,1,1,1,1,1,0,1,1,0,0,0,1,1,1,1
+Leather Archer Armor,Castle,0,0,1,0,0,0,0,0,0,0,0,0,0,0,150F 150G,0,0,150,150,Archer and Cavalry Archer armor +1/+1,Missle_or_Siege,,The Age of Kings,55,Padded Archer Armor,Ring Archer Armor,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Murder Holes,Castle,0,0,0,0,0,0,0,0,0,0,0,0,0,1,200F 100S,0,100,0,200,Eliminates minimum range of all buildings,Missle_or_Siege,,The Age of Kings,60,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Parthian Tactics,Imperial,1,0,0,0,0,0,0,0,0,0,0,0,0,0,200F 250G,0,0,250,200,Cavalry Archers +1/+2 armor and +4 attack vs Pikemen,Missle_or_Siege,,The Conquerors,65,,,0,0,0,1,0,0,0,0,0,0,1,0,1,0,1,1,0,1,0,0,0,1,1,0,1,0,0,0,1,0,0
+Ring Archer Armor,Imperial,0,0,1,0,0,0,0,0,0,0,0,0,0,0,250F 250G,0,0,250,250,Archer and Cavalry Archer armor +1/+2,Missle_or_Siege,,The Age of Kings,70,Leather Archer Armor,,0,1,1,0,1,0,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1
+Siege Engineers,Imperial,0,0,0,0,0,0,0,0,0,0,0,0,0,1,500F 600W,600,0,0,500,Siege weapons +1 range (except Rams) and +20% attack vs buildings (Petards +40%),Missle_or_Siege,,The Age of Kings,45,,,1,1,1,1,0,1,0,1,1,0,0,1,1,0,1,1,1,1,1,0,0,1,0,1,1,1,0,1,0,1,1
+Thumb Ring,Castle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,300F 250W,250,0,0,300,Archers and Cavalry Archers fire faster and with 100% accuracy,Missle_or_Siege,,The Conquerors,45,,,0,1,0,0,1,0,1,1,0,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1
+Atonement,Castle,0,0,0,0,0,0,0,0,0,1,0,0,0,0,325G,0,0,325,0,Monks can convert other Monks,Monk,,The Age of Kings,40,,,1,1,0,1,1,0,1,1,0,0,1,0,0,1,1,0,0,0,1,1,1,1,0,1,1,1,1,1,1,1,1
+Block Printing,Imperial,0,0,0,0,0,0,0,0,0,1,0,0,0,0,200G,0,0,200,0,Monk conversion range +3,Monk,,The Age of Kings,55,,,1,0,1,1,1,0,0,0,1,0,0,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1
+Faith,Imperial,0,0,0,0,0,0,0,0,0,1,0,0,0,0,750F 1000G,0,0,1000,750,Units are harder for enemy Monks to convert,Monk,,The Age of Kings,60,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1
+Fervor,Castle,0,0,0,0,0,0,0,0,0,1,0,0,0,0,140G,0,0,140,0,Monk speed +15%,Monk,,The Age of Kings,50 seconds,,,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1
+Herbal Medicine,Castle,0,0,0,0,0,0,0,0,0,1,0,0,0,0,350G,0,0,350,0,Garrisoned units heal 4x faster,Monk,,The Conquerors,35,,,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0
+Heresy,Castle,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1000G,0,0,1000,0,Units converted by enemy Monks die instead of joining them,Monk,,The Conquerors,60,,,1,1,0,0,1,1,0,1,1,0,1,1,0,0,0,0,0,1,1,1,1,1,0,1,1,0,1,1,1,0,1
+Illumination,Imperial,0,0,0,0,0,0,0,0,0,1,0,0,0,0,120G,0,0,120,0,Monk rejuvenation speed +50%,Monk,,The Age of Kings,65,,,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,0,1,1,1,1,0,1,0
+Redemption,Castle,0,0,0,0,0,0,0,0,0,1,0,0,0,0,475G,0,0,475,0,Monks can convert most buildings and siege units,Monk,,The Age of Kings,50,,,1,1,0,1,1,0,1,0,0,0,0,1,1,1,1,1,0,0,1,1,0,0,0,1,1,1,1,1,1,0,0
+Sanctity,Castle,0,0,0,0,0,0,0,0,0,1,0,0,0,0,120G,0,0,120,0,Monks +15 HP,Monk,,The Age of Kings,60,,,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0
+Careening,Castle,0,0,0,0,1,0,0,0,0,0,0,0,0,0,250F 150G,0,0,150,250,"Ship armor +1, Transport Ship capacity +5",Naval,,The Age of Kings,50,,Dry Dock,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Dry Dock,Imperial,0,0,0,0,1,0,0,0,0,0,0,0,0,0,600F 400G,0,0,400,600,"Ship speed +15%, Transport Ship capacity +10",Naval,,The Age of Kings,60,Careening,,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1
+Shipwright,Imperial,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1000F 300G,0,0,300,1000,Ships wood cost -20% and creation speed -35%,Naval,,The Age of Kings,60,,,1,0,1,0,1,1,1,1,0,1,0,1,0,1,1,1,1,1,1,0,1,1,0,0,0,0,1,0,1,0,0
+Arquebus,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,400,700,Gunpowder units fire more accurately at moving targets Increases projectile speed of Bombard Cannons and Bombard Towers by +0.2,,,The African Kingdoms,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Artillery,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,450,500,0,"Bombard Tower, Bombard Cannon, and Cannon Galleon range +2",,,The Conquerors,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Atheism,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,500,500,Wonder and Relic victories take +100 years -50% Spies / Treason cost,,,The Conquerors,60,,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Atlatl,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,350,400,Skirmishers +1 attack and range,,,The Forgotten,40,,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bearded Axe,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,400,400,Throwing Axeman range +1,,,The Conquerors,60,,,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Berserkergang,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,400,850,Berserks regenerate faster,,,The Conquerors,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Bodkin Arrow,Castle,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,0,0,100,200,"Archers, Castles, Town Centers, Towers, Galleys, and Longboats +1 attack, +1 range",Missle_or_Siege,,The Age of Kings,35,Fletching,Bracer,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Boiling Oil,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,200,100,0,0,Castles +9 bonus damage against rams,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Bombard Cannon,Imperial,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,0,0,250,500,,,,The Age of Kings,100,Chemistry,,1,1,0,1,1,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0
+Bombard Tower,Imperial,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,400,0,0,800,,,,The Age of Kings,60,Chemistry,,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,1,1,1,1,0
+Cannon Galleon,Imperial,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,500,0,0,400,,,,The Age of Kings,50,Chemistry,,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1
+Carrack,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,200,0,300,0,Ship armor +1/+1,,,The African Kingdoms,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Chatras,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,250,250,Battle Elephants  +50 HP,,,Rise of the Rajas,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Chieftains,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,300,400,"Infantry +5 attack vs cavalry, +4 vs camels",,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Chivalry,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,400,0,400,0,Stables work 40% faster,,,The Forgotten,40 seconds,,,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Couriers,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,600,600,"Kamayuks, Slingers, and Eagle Scouts +1/+2 armor",,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Crenellations,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,400,0,600,"Castle range +3, garrisoned infantry fires arrows",,,The Conquerors,60,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Double Crossbow,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,400,700,Ballista Elephants and Scorpions fire two projectiles,,,Rise of the Rajas,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Drill,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,450,500,Siege Workshop units movement speed +50%,,,The Conquerors,60,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Druzhina,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,500,1200,Infantry deals trample damage,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+El Dorado,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,450,750,,,,The Conquerors,50,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Farimba,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,400,650,Stable units +5 attack,,,The African Kingdoms,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Forced Levy,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,600,1000,Militia line units cost no gold,,,Rise of the Rajas,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Furor Celtica,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,450,750,Siege Workshop units +40% HP,,,The Conquerors,50,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Garland Wars,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,750,450,Infantry attack +4,,,The Conquerors,60,,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Great Wall,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,400,200,0,0,Walls and towers +30% hit points,,,The Forgotten,40 seconds,,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Greek Fire,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,300,250,Fire Ships +1 range,,,The Forgotten,40,,,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Guilds,Imperial,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,0,0,200,300,Trading fee reduced to 15%,,,The Age of Kings,50,,,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,0,1,0,1,1,1,0,1,1,0,0,1,1,1,1,0
+Howdah,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,300,0,0,400,Battle Elephants  +1/+1 armor,,,Rise of the Rajas,40,,,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Inquisition,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,300,100,Monks convert faster,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Ironclad,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,400,0,350,0,Siege weapon melee armor +4,,,The Forgotten,60,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Kasbah,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,250,250,Team Castles work +25% faster,,,The African Kingdoms,40,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kataparuto,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,750,0,400,0,Trebuchets pack/unpack and fire faster,,,The Conquerors,60,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Logistica,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,600,1000,"Cataphracts cause trample damage, +6 attack vs infantry",,,The Conquerors,50,,,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Madrasah,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,100,200,Monks return 33 gold when killed,,,The Forgotten,30,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Maghrabi Camels,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,300,700,Camel troops regenerate,,,The African Kingdoms,40,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Mahouts,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,300,300,War Elephant speed +30%,,,The Conquerors,50,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Manipur Cavalry,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,400,650,Cavalry and Arambai +3 attack vs buildings and standard buildings,,,Rise of the Rajas,40,,,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Marauders,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,300,0,200,0,Tarkans can be trained at the Stable,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Mercenaries,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,300,200,Magyar Huszars cost no gold,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nomads,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,300,0,150,0,Houses do not lose population when destroyed,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Obsidian Arrows,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,300,300,Archer line has +6 attack vs standard buildings and stone defense,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Orthodoxy,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,300,200,Monks +3/+3 armor,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Padded Archer Armor,Feudal,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,100,Archer armor +1/+1,Missle_or_Siege,,The Age of Kings,40,,Leather Archer Armor,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Panokseon,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,300,0,0,300,Turtle Ships move 15% faster,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Paper Money,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,200,800,The player and all allies receive 500 gold,,,Rise of the Rajas,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Pavise,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,150,300,Foot archers +1/+1 armor,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Perfusion,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,400,0,600,0,Barracks work 100% faster,,,The Conquerors,40,,,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Recurve Bow,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,600,0,400,0,Cavalry Archers +1 range and attack,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Rocketry,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,600,0,600,0,"Chu Ko Nu attack +2, Scorpion attack +4",,,The Conquerors,60 seconds,,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Royal Heirs,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,300,300,Shotel Warriors are created nearly instantly,,,The African Kingdoms,40,,,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Scale Barding Armor,Feudal,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,150,Cavalry armor +1/+1,,,The Age of Kings,45,,Chain Barding Armor,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1
+Shatagni,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,300,500,Hand Cannoneers +1 range,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Shinkichon,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,800,0,500,0,Mangonels +1 range,,,The Conquerors,60,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Silk Road,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,250,500,Trade units cost halved,,,The Forgotten,60,,,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sipahi,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,150,350,Cavalry Archers +20 HP,,,The Forgotten,60,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Stone Mining,Feudal,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,75,0,0,100,Villagers gather stone 15% faster,,,The Age of Kings,30,,Stone Shaft Mining,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Stone Shaft Mining,Castle,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,150,0,0,200,Villagers gather stone 15% faster,,,The Age of Kings,75,Stone Mining,,1,1,0,0,1,1,1,1,0,1,0,1,1,1,0,1,1,0,1,1,1,1,1,1,0,0,1,1,0,1,0
+Stronghold,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,200,250,Castles and Towers fire 25% faster,,,The Forgotten,30,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sultans,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,400,0,0,400,All gold gathering is 10% faster,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Supremacy,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,250,400,Increases Villager combat skills,,,The Conquerors,60,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Thalassocracy,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,300,300,Turns Docks into Harbors,,,Rise of the Rajas,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Theocracy,Imperial,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,0,0,200,0,Only one Monk or Missionary must rest after a successful conversion,,,The Conquerors,75,,,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,0
+Tigui,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,300,0,0,200,Town Centers fire arrows,,,The African Kingdoms,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Torsion Engines,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,600,1000,Siege Workshop units blast radius increased,,,The African Kingdoms,40 seconds,,,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Tusk Swords,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,200,0,300,0,Battle Elephants +3 attack,,,Rise of the Rajas,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Warwolf,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,500,0,250,0,"Trebuchets do blast damage, 100% accuracy against units",,,The Forgotten,40,,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Yasama,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,300,0,0,300,Towers fire 2 extra arrows,,,The Forgotten,40,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Yeomen,Castle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,750,0,450,0,"Foot archer range +1, Tower attack +2",,,The Conquerors,60,,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Zealotry,Imperial,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,800,750,Camel and Mameluke +30HP,,,The Conquerors,50,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
