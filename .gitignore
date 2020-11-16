@@ -1,6 +1,9 @@
 
 # C:\Users\dev\Documents\repositories\age-of-empires-ii
 
+# Exclude secrets
+**/json/*_secrets.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
